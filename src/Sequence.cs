@@ -48,7 +48,7 @@ namespace CodingIsFun
             Thread.Sleep(TimeSpan.FromMilliseconds(1300));
 
             Console.WriteLine("(BUT DONT DO IT)");
-            Thread.Sleep(TimeSpan.FromMilliseconds(1800));
+            Thread.Sleep(TimeSpan.FromMilliseconds(1600));
 
             Questioneer RUready = new Questioneer("Are you ready?");
             if (RUready.answer == "no")
